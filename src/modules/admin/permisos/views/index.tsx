@@ -229,31 +229,6 @@ const index = (): JSX.Element => {
 									</div>
 								</div>
 								<Row className="g-3">
-									<Col xs={12} sm={6} md={4} xxl={3}>
-										<Form.Label>Nombre</Form.Label>
-										<Form.Control
-											type="text"
-											size="sm"
-											name="nombre"
-											onChange={formik.handleChange}
-											onKeyUp={e => {
-												if (e.key === 'Enter') formik.handleSubmit();
-											}}
-										/>
-									</Col>
-									<Col xs={12} sm={6} md={4} xxl={3}>
-										<Form.Label>Descripción</Form.Label>
-										<Form.Control
-											type="text"
-											size="sm"
-											name="descripcion"
-											// value={formik.values?.descripcion ?? ''}
-											onChange={formik.handleChange}
-											onKeyUp={e => {
-												if (e.key === 'Enter') formik.handleSubmit();
-											}}
-										/>
-									</Col>
 									<Col xs={12} sm={6} md={4} xxl={3} className="d-flex flex-column">
 										<Form.Label>Fecha de registro</Form.Label>
 										<DatePicker
