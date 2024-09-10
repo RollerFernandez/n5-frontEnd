@@ -1,0 +1,9 @@
+export const API_BASE_URL: string = import.meta.env.VITE_API_BASE_URL;
+export const API_IPIFY_URL: string = 'https://api.ipify.org';
+export const API_ALFRESCO_BASE_URL: string = import.meta.env.VITE_ALFRESCO_BASE_URL;
+export const API_ALFRESCO_USUARIO: string = import.meta.env.VITE_ALFRESCO_USUARIO;
+export const API_ALFRESCO_PASSWORD: string = import.meta.env.VITE_ALFRESCO_PASSWORD;
+export const CLIENT_ID_ADOBE: string = import.meta.env.VITE_CLIENT_ID_ADOBE;
+export const KEY_RECAPTCHA: string = import.meta.env.VITE_KEY_RECAPTCHA;
+export const KEY_LOCAL_STORAGE: string = import.meta.env.VITE_KEY_LOCAL_STORAGE;
+export const VITE_RENIEC_URL: string = import.meta.env.VITE_RENIEC_URL;

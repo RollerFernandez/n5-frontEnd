@@ -1,0 +1,14 @@
+@import '../../vendor/scss/template.scss';
+
+@import 'variables';
+
+// sweetalert2
+@import 'node_modules/sweetalert2/src/sweetalert2';
+
+// react-datepicker
+@import 'node_modules/react-datepicker/src/stylesheets/datepicker';
+
+// react-toastify
+@import 'node_modules/react-toastify/scss/main';
+
+@import 'style';
